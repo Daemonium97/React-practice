@@ -18,14 +18,11 @@ export function Home() {
 				label="Aprenda sobre gugul"
 				link="https://es.wikipedia.org/wiki/Google"
 			/>
-			<MyCard
-				cardTitle1="Finn"
-				description1="asd"
-				cardTitle2="Jake"
-				description2="sda"
-				cardTitle3="BMO"
-				description3="asd"
-			/>
+			<div className="card-deck">
+				<MyCard cardTitle="Finn" description="asd" />
+				<MyCard cardTitle="Jake" description="saefdas" />
+				<MyCard cardTitle="BMO" description="dasd" />
+			</div>
 		</div>
 	);
 }

@@ -4,3 +4,8 @@ ports:
 tasks:
     - command: >
         npm i vercel -g
+
+vscode:
+  extensions:
+    - dsznajder.es7-react-js-snippets@3.1.0:MJ/bfyCCPMdDGtAC1ZzGOQ==
+    - tomi.xasnippets@2.8.0:oQ5xNrp8Haj37Eh/JpnF5Q==
